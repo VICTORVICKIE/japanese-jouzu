@@ -1,0 +1,13 @@
+
+<svg id="z12531" class="jozu" version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<path id="z12531d1" d="M242 221C296 273 327 325 384 373C414 399 455 375 440 335C413 268 317 218 252 183C158 130 214 193 242 221Z"></path>
+<path id="z12531d2" d="M769 315C646 461 524 610 359 710C313 737 273 750 222 759C175 768 233 816 253 836C272 855 304 880 330 857C507 702 663 551 785 338C818 282 796 282 769 315Z"></path>
+<defs>
+	<clipPath id="z12531c1"><use xlink:href="#z12531d1"></use></clipPath>
+	<clipPath id="z12531c2"><use xlink:href="#z12531d2"></use></clipPath>
+</defs>
+<path style="--d:1s;" pathLength="3333" clip-path="url(#z12531c1)" d="M 214,175 422,379"></path>
+<path style="--d:2s;" pathLength="3333" clip-path="url(#z12531c2)" d="M 227,776 306,814 538,631 791,308"></path>
+<g visibility="visible"><circle cx="228.27876497192486" cy="189.00417333784938" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="228.27876497192486" y="209.00417333784938" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text><circle cx="245.02333483483676" cy="784.6694521990354" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="245.02333483483676" y="804.6694521990354" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">2</text></g></svg>
+

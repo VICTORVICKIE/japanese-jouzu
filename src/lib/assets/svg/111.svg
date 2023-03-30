@@ -1,0 +1,12 @@
+
+<svg id="z12518" class="jozu" version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<path id="z12518d1" d="M644 250C540 274 439 301 331 306C303 307 272 307 244 307C198 308 233 337 245 345C271 365 308 365 339 364C425 361 446 333 604 317C626 315 646 332 642 360C628 465 602 569 585 674C581 694 643 684 646 664C664 583 706 398 750 350C764 335 729 302 694 269C678 253 656 247 644 250Z"></path>
+<path id="z12518d2" d="M585 674C461 694 283 709 125 714C39 717 151 782 199 775C324 757 460 732 587 729C696 726 794 737 903 735C940 734 921 695 902 681C839 635 663 661 646 664C605 671 605 671 585 674Z"></path>
+<defs>
+	<clipPath id="z12518c1"><use xlink:href="#z12518d1"></use></clipPath>
+	<clipPath id="z12518c2"><use xlink:href="#z12518d2"></use></clipPath>
+</defs>
+<path style="--d:1s;" pathLength="3333" clip-path="url(#z12518c1)" d="M 231,322 308,339 649,280 711,347 599,661"></path>
+<path style="--d:2s;" pathLength="3333" clip-path="url(#z12518c2)" d="M 106,729 193,751 790,681 914,720"></path>
+<g visibility="visible"><circle cx="250.52969055369775" cy="326.3117498625047" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="250.52969055369775" y="346.3117498625047" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text><circle cx="125.38966915234315" cy="733.9031347281788" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="125.38966915234315" y="753.9031347281788" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">2</text></g></svg>

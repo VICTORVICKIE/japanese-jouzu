@@ -1,0 +1,15 @@
+
+<svg id="z12529" class="jozu" version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<path id="z12529d1" d="M666 213C563 232 470 249 323 271C206 288 260 312 276 322C301 337 332 337 351 332C449 310 532 271 633 263C653 262 690 290 674 312C643 355 608 393 570 429C527 469 544 493 597 451C658 403 723 363 787 321C807 308 783 276 773 259C753 226 737 200 666 213Z"></path>
+<path id="z12529d2" d="M452 445C441 462 485 519 487 560C490 641 492 705 488 774C488 792 543 787 543 769C543 714 543 714 543 686C544 629 548 558 565 518C570 505 560 489 532 469C514 456 466 423 452 445Z"></path>
+<path id="z12529d3" d="M136 792C125 791 94 788 110 811C136 845 175 871 216 859C345 839 475 818 607 824C706 823 806 833 906 841C924 838 904 808 897 800C867 760 820 746 775 750C747 749 651 759 543 769C506 772 506 772 488 774C347 786 196 799 136 792Z"></path>
+<defs>
+	<clipPath id="z12529c1"><use xlink:href="#z12529d1"></use></clipPath>
+	<clipPath id="z12529c2"><use xlink:href="#z12529d2"></use></clipPath>
+	<clipPath id="z12529c3"><use xlink:href="#z12529d3"></use></clipPath>
+</defs>
+<path style="--d:1s;" pathLength="3333" clip-path="url(#z12529c1)" d="M 262,296 342,305 690,233 742,305 555,467"></path>
+<path style="--d:2s;" pathLength="3333" clip-path="url(#z12529c2)" d="M 464,452 525,510 499,764"></path>
+<path style="--d:3s;" pathLength="3333" clip-path="url(#z12529c3)" d="M 123,803 207,830 814,781 900,827"></path>
+<g visibility="visible"><circle cx="281.874626323176" cy="298.2358954613573" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="281.874626323176" y="318.2358954613573" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text><circle cx="478.4940549465367" cy="465.7812325721169" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="478.4940549465367" y="485.7812325721169" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">2</text><circle cx="142.0405712257053" cy="809.1201836082624" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="142.0405712257053" y="829.1201836082624" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">3</text></g></svg>
