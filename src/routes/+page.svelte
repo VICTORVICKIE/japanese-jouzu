@@ -9,10 +9,11 @@
         width: '24',
         height: '24'
     }
-
+    let total_kana = 152
     let tooltip_hover_none = 'hover:before:opacity-0 hover:after:opacity-0'
+
     async function change_kana(i: number) {
-        idx = ((idx - 1 + i + 152) % 152) + 1
+        idx = ((idx - 1 + i + total_kana) % total_kana) + 1
     }
 
     async function replay_kana_animation() {
