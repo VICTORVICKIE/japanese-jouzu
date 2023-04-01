@@ -31,8 +31,9 @@ export function get_kana(idx: number): Kana {
 }
 
 export interface State {
-    run: boolean
-    replay: boolean
-    auto_play: boolean
+    start: boolean
+    play_stroke: boolean
+    play_audio: boolean
+    autoplay_audio: boolean
     rare_moji: boolean
 }
