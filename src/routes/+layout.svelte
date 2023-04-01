@@ -6,6 +6,12 @@
 <slot />
 
 <style>
+    @font-face {
+        font-family: 'wasabi';
+        font-display: swap;
+        src: url('/fonts/wasabi.ttf');
+    }
+
     @keyframes -global-draw {
         to {
             stroke-dashoffset: 0;
