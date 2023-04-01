@@ -1,4 +1,4 @@
-import type { Japanese } from "$lib/utils";
+import type { Japanese } from '$lib/utils'
 
 export const japanese: Japanese = {
     kanji: {
@@ -6,7 +6,7 @@ export const japanese: Japanese = {
             moji: '一',
             romanji: 'ichi',
             example: { word: '一', romanji: 'ichi', meaning: 'one' }
-        },
+        }
     },
     hiragana: {
         1: {

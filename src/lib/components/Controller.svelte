@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { State } from "$lib/utils"
+    import type { State } from '$lib/utils'
 
     export let idx: number
     export let play_moji_pronunciation: () => void

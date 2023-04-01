@@ -9,7 +9,7 @@
         auto_play: true,
         rare_moji: false
     }
-    
+
     let idx = 1
     let kana = get_kana(idx)
 

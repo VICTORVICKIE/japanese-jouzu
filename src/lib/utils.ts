@@ -4,7 +4,7 @@ export type Kana = (typeof KANA)[number]
 export const KANA_BOUNDS = {
     hiragana: 74,
     katakana: 152,
-    kanji: 3000,
+    kanji: 3000
 } as const
 
 export const RARE_MOJI = [45, 46, 49, 119, 120, 123, 121, 149, 150, 151, 152]
@@ -26,7 +26,7 @@ export type Japanese = {
 }
 
 export function get_kana(idx: number): Kana {
-    const i = (idx <= KANA_BOUNDS.hiragana) ? 0 : (idx <= KANA_BOUNDS.katakana) ? 1 : 2
+    const i = idx <= KANA_BOUNDS.hiragana ? 0 : idx <= KANA_BOUNDS.katakana ? 1 : 2
     return KANA[i]
 }
 
