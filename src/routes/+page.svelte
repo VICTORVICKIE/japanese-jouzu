@@ -1,31 +1,24 @@
 <script lang="ts">
     import { japanese } from '$lib/assets/data/kana'
     import Controller from '$lib/components/Controller.svelte'
-    import { get_kana, KANA_BOUNDS, RARE_MOJI } from '$lib/utils'
+    import { get_kana, type State } from '$lib/utils'
 
-    let state = {
-        run: false,
-        replay: false,
-        auto_play: true,
+    let state: State = {
+        start: false,
+        play_stroke: false,
+        play_audio: false,
+        autoplay_audio: true,
         rare_moji: false
     }
 
     let idx = 1
     let kana = get_kana(idx)
 
-    $: example = japanese[kana][idx]?.example
-    async function play_moji_pronunciation() {
-        if (RARE_MOJI.includes(idx)) {
-            state.rare_moji = true
-            return
-        }
-        state.rare_moji = false
-        state.auto_play = false
-        const i = idx <= KANA_BOUNDS.katakana ? ((idx - 1) % KANA_BOUNDS.hiragana) + 1 : idx
-
-        let moji_pronunciation = new Audio(`/audio/${i}.mp3`)
-        moji_pronunciation.play()
+    async function trigger_audio() {
+        state = { ...state, play_audio: true, autoplay_audio: false }
     }
+
+    $: example = japanese[kana][idx]?.example
 </script>
 
 <div
@@ -39,10 +32,10 @@
             <div class="card bg-base-100 border-b border-l border-neutral shadow-xl">
                 <div class="card-body relative h-96 w-80">
                     <!-- Hack to get around autoplay -->
-                    {#if state.run}
+                    {#if state.start}
                         <div class="flex h-56 justify-center">
                             <!-- Load svg to replay -->
-                            {#if !state.replay}
+                            {#if !state.play_stroke}
                                 <!-- Load svg or show buffer -->
                                 {#await import(`$lib/assets/svg/${idx}.svg?component`)}
                                     <iconify-icon
@@ -51,10 +44,14 @@
                                         width="64"
                                     />
                                 {:then moji}
-                                    <svelte:component this={moji.default} height="224" />
+                                    <svelte:component
+                                        this={moji.default}
+                                        on:click={() => console.log('wont work')}
+                                        height="224"
+                                    />
                                     <!-- svelte-ignore empty-block -->
-                                    {#if state.auto_play}
-                                        {@const autoplay_audio = play_moji_pronunciation()}
+                                    {#if state.autoplay_audio}
+                                        {@const autoplay_audio = trigger_audio()}
                                     {/if}
                                 {:catch}
                                     IDK, try refreshing
@@ -71,10 +68,13 @@
                         </div>
                         <!-- Navigation -->
                         <div class="absolute bottom-8 left-0 w-64 mx-8 flex justify-between">
-                            <Controller bind:state bind:idx {play_moji_pronunciation} />
+                            <Controller bind:state bind:idx />
                         </div>
                     {:else}
-                        <button class="btn w-24 btn-xs m-auto" on:click={() => (state.run = true)}>
+                        <button
+                            class="btn w-24 btn-xs m-auto"
+                            on:click={() => (state.start = true)}
+                        >
                             Let's Start
                         </button>
                     {/if}
