@@ -17,7 +17,6 @@
             stroke-dashoffset: 0;
         }
     }
-
     :global(svg.jozu path[clip-path]) {
         animation: draw 1s linear forwards var(--d);
         stroke-dasharray: 3337;

@@ -78,9 +78,7 @@
         state = { ...state, play_audio: true, autoplay_audio: false }
     }
 
-    $: if (state.play_audio) {
-        play_moji_pronunciation()
-    }
+    $: if (state.play_audio) play_moji_pronunciation()
 </script>
 
 <button class="w-6 h-6" on:click={(e) => change_moji(-1, e)}>

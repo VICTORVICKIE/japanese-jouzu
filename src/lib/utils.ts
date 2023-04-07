@@ -32,6 +32,7 @@ export function get_kana(idx: number): Kana {
 
 export interface State {
     start: boolean
+    stroke_order: 'visible' | 'hidden'
     play_stroke: boolean
     play_audio: boolean
     autoplay_audio: boolean

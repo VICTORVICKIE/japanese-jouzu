@@ -9,5 +9,5 @@
 </defs>
 <path style="--d:1s;" pathLength="3333" clip-path="url(#z12527c1)" d="M 182,250 258,524"></path>
 <path style="--d:2s;" pathLength="3333" clip-path="url(#z12527c2)" d="M 243,277 326,280 746,188 808,261 579,713 373,914"></path>
-<g visibility="visible"><circle cx="187.34562149088683" cy="269.27237221714466" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="187.34562149088683" y="289.27237221714466" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text><circle cx="262.98694848137114" cy="277.7224198246279" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="262.98694848137114" y="297.7224198246279" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">2</text></g></svg>
+<g visibility="var(--visibilty)"><circle cx="187.34562149088683" cy="269.27237221714466" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="187.34562149088683" y="289.27237221714466" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text><circle cx="262.98694848137114" cy="277.7224198246279" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="262.98694848137114" y="297.7224198246279" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">2</text></g></svg>
 

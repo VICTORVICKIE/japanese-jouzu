@@ -14,7 +14,7 @@
 <path style="--d:2s;" pathLength="3333" clip-path="url(#z12354c2)" d="M 331,137 420,185 373,388 367,632 409,728 431,777"></path>
 <path style="--d:3s;" pathLength="3333" clip-path="url(#z12354c3a)" d="M 570,440 610,484 460,727 200,836 181,682 342,556 466,514 641,499 754,520 838,606 845,763 703,869 508,922"></path>
 <path style="--d:3s;" pathLength="3333" clip-path="url(#z12354c3b)" d="M -170,442 -210,484 -60,727 200,836 181,682 342,556 466,514 641,499 754,520 838,606 845,763 703,869 508,922"></path>
-<g visibility="visible">
+<g visibility="var(--visibilty)">
 	<circle cx="190.77384763987874" cy="268.8921088570641" r="40" stroke="#000" fill="#E0E0E0" stroke-width="5"></circle>
 	<text x="190.77384763987874" y="288.8921088570641" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text>
 	<circle cx="348.6030670810557" cy="146.49378898753565" r="40" stroke="#000" fill="#E0E0E0" stroke-width="5"></circle>
