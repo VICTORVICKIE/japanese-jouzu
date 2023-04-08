@@ -1,11 +1,11 @@
 <script lang="ts">
     import { japanese } from '$lib/assets/data/kana'
     import Controller from '$lib/components/Controller.svelte'
-    import { get_kana, type State } from '$lib/utils'
+    import type { Kana, State } from '$lib/utils'
 
     export let state: State
     export let idx: number
-    let kana = get_kana(idx)
+    export let kana: Kana
     $: example = japanese[kana][idx]?.example ?? { word: '', romanji: '', meaning: '' }
 
     async function trigger_audio() {
@@ -30,7 +30,7 @@
                     <svelte:component
                         this={moji.default}
                         height="224"
-                        --visibilty={state.stroke_order}
+                        --visibility={state.stroke_order}
                     />
                     <!-- svelte-ignore empty-block -->
                     {#if state.autoplay_audio}
