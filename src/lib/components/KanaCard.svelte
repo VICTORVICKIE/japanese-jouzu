@@ -6,7 +6,7 @@
     export let state: State
     export let idx: number
     let kana = get_kana(idx)
-    $: example = japanese[kana][idx]?.example
+    $: example = japanese[kana][idx]?.example ?? { word: '', romanji: '', meaning: '' }
 
     async function trigger_audio() {
         state = { ...state, play_audio: true, autoplay_audio: false }
