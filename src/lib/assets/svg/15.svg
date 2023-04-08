@@ -6,5 +6,5 @@
 	<clipPath id="z12381c1"><use xlink:href="#z12381d1"></use></clipPath>
 </defs>
 <path style="--d:1s;" pathLength="3333" clip-path="url(#z12381c1)" d="M 297,219 343,235 591,132 621,154 433,374 226,558 251,589 731,415 747,428 665,471 592,536 521,616 496,694 507,749 722,915"></path>
-<g visibility="var(--visibilty)"><circle cx="315.8899359341232" cy="225.57041249882545" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="315.8899359341232" y="245.57041249882545" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text></g></svg>
+<g visibility="var(--visibility)"><circle cx="315.8899359341232" cy="225.57041249882545" r="40" stroke="#000" fill="#fff" stroke-width="5"></circle><text x="315.8899359341232" y="245.57041249882545" text-anchor="middle" font-family="arial" font-weight="normal" fill="#000" font-size="60">1</text></g></svg>
 
